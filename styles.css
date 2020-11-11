@@ -2,19 +2,22 @@ header {
     text-emphasis-style: bold;
     background-color: gray;
     color: black;
+    float: center;
     backdrop-filter: blur;
     align-items: center;
     text-overflow: nowrap;
     border: 2px darkgray outset;
     padding: 10px;
     margin: 0 auto;
-    display: block;
+    display: inline-block;
 }
 body {
     background-color: lightgray;
     color: black;
 }
 footer {
+    float: left;
+    text-decoration-style: wavy;
     background-color: lightgray;
     color: darkgray;
 }
@@ -27,7 +30,7 @@ li {
     border: 4px outset;
     display: inline-block;
     padding: 14px;
-    margin: 5px 30px;
+    margin: 5px 210px;
 }
 section {
     text-align: left;
@@ -42,8 +45,13 @@ p {
 }
 .blue {
     background-color: lightblue;
+    float: left;
+}
+.white {
+    float: right;
 }
 .main_img {
+    float: center;
     width: 800px;
     border-radius: 1000px;
     margin: 0 auto;
@@ -52,4 +60,36 @@ p {
 .secondary_img {
     border: 2px inset;
     border-radius: 25px;
+}
+.1 {
+    float: left;
+    word-wrap: break-word; 
+    display: inline-block;
+    text-align: justify left;
+}
+.2 {
+    float: right;
+}
+.3 {
+    float: left;
+}
+.4 {
+    float: right;
+}
+.5 {
+    float: left;
+}
+.6 {
+    float: right;
+}
+.7 {
+    float: left;
+}
+.8 {
+    float: right;
+    display: block;
+}
+*{
+    font-family: Helvetica;
+    font-size: 14;
 }
