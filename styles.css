@@ -1,29 +1,27 @@
 header {
-    text-emphasis-style: bold;
-    background-color: gray;
-    color: black;
-    float: center;
-    backdrop-filter: blur;
-    align-items: center;
-    text-overflow: nowrap;
+    font-size: 25pt;
+    font: italic;
     border: 2px darkgray outset;
-    padding: 10px;
-    margin: 0 auto;
+    background-color: darkgray;
     display: inline-block;
+    float: left;
 }
 body {
     background-color: lightgray;
     color: black;
     display: inline;
     word-wrap: break-word; 
-    float: top left;
     text-overflow: wrap;
+    font-family: Helvetica;
+    font-size: 14;
 }
 footer {
     float: left top;
     text-decoration-style: wavy;
     background-color: lightgray;
     color: darkgray;
+    font-family: Helvetica;
+    font-size: 14;
 }
 img {
     border-radius: 50;
@@ -55,45 +53,44 @@ p {
     float: right;
 }
 .main_img {
-    float: center;
     width: 800px;
     border-radius: 1000px;
-    margin: 0 auto;
     border: 5px darkgray inset;
+    display: inline;
 }
 .secondary_img {
     border: 2px inset;
     border-radius: 25px;
 }
-.1 {
-    float: left;
+.one {
     display: inline-block;
     text-align: justify left;
 }
-.2 {
+.two {
     float: right;
+    display: inline;
 }
-.3 {
+.three {
     float: left;
+    display: inline;
 }
-.4 {
+.four {
     float: right;
+    display: inline;
 }
-.5 {
+.five {
     float: left;
+    display: inline;
 }
-.6 {
+.six {
     float: right;
-    display: inline-block;
+    display: inline;
 }
-.7 {
+.seven {
     float: left;
+    display: inline;
 }
-.8 {
+.eight {
     float: right;
-    display: block;
-}
-*{
-    font-family: Helvetica;
-    font-size: 14;
+    display: inline;
 }
