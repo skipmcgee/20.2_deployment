@@ -1,12 +1,18 @@
+header {
+    text-emphasis-style: bold;
+    background-color: gray;
+    color: black;
+    backdrop-filter: blur;
+    align-items: center;
+    text-overflow: nowrap;
+    border: 2px darkgray outset;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+}
 body {
     background-color: lightgray;
     color: black;
-}
-header {
-    background-color: lightgray;
-    color: black;
-    text-align: center;
-    border: inset;
 }
 footer {
     background-color: lightgray;
@@ -18,27 +24,32 @@ img {
 }
 li {
     background-color: darkgray;
-    border: 1px solid black;
+    border: 4px outset;
     display: inline-block;
-    margin: 5px 20px;
+    padding: 14px;
+    margin: 5px 30px;
 }
 section {
-    border: 1px darkgray;
+    text-align: left;
+    border: 2px darkgray outset;
     background-color: whitesmoke;
+    padding: 10px;
     margin: 5px 0px;
-    display: inline;
+    display: block;
 }
 p {
-    display: inline-block;
-    width: 600px;
+    display: inline;
 }
-.section:blue {
+.blue {
     background-color: lightblue;
 }
 .main_img {
-    border-radius: circle;
+    width: 800px;
+    border-radius: 1000px;
+    margin: 0 auto;
+    border: 5px darkgray inset;
 }
 .secondary_img {
-    border: 2px highlight;
+    border: 2px inset;
     border-radius: 25px;
 }
