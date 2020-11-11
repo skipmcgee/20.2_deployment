@@ -14,9 +14,13 @@ header {
 body {
     background-color: lightgray;
     color: black;
+    display: inline;
+    word-wrap: break-word; 
+    float: top left;
+    text-overflow: wrap;
 }
 footer {
-    float: left;
+    float: left top;
     text-decoration-style: wavy;
     background-color: lightgray;
     color: darkgray;
@@ -63,7 +67,6 @@ p {
 }
 .1 {
     float: left;
-    word-wrap: break-word; 
     display: inline-block;
     text-align: justify left;
 }
@@ -81,6 +84,7 @@ p {
 }
 .6 {
     float: right;
+    display: inline-block;
 }
 .7 {
     float: left;
