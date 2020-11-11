@@ -16,12 +16,13 @@ body {
     font-size: 14;
 }
 footer {
-    float: left top;
     text-decoration-style: wavy;
     background-color: lightgray;
     color: darkgray;
     font-family: Helvetica;
-    font-size: 14;
+    font-size: 14en;
+    display: inline-block;
+    border: 2px darkgray outset;
 }
 img {
     border-radius: 50;
@@ -40,58 +41,48 @@ section {
     background-color: whitesmoke;
     padding: 10px;
     margin: 5px 0px;
-    display: inline-block;
-}
-.blue {
-    background-color: lightblue;
-}
-.white {
-    background-color: white;
 }
 .main_img {
     width: 800px;
     border-radius: 1000px;
     border: 5px darkgray inset;
-    display: inline;
+    display: inline-block;
 }
 .secondary_img {
     border: 2px inset;
     border-radius: 25px;
 }
 .sec_one {
-    p {
-        text-align: left
-        width: 4en;
-    }
+    background-color: white;
+    display: inline-block;
+    width: 400px;
+    height: 580px;
 }
 .sec_two {
-    p {
-        text-align: center;
-        width: 50px;
-
-    }
+    background-color: lightblue;
+    display: inline-block;
 }
 .sec_three {
-    float: left;
-    display: inline;
+    background-color: white;
+    display: inline-block;
 }
 .sec_four {
-    float: right;
-    display: inline;
+    background-color: lightblue;
+    display: inline-block;
 }
 .sec_five {
-    float: left;
-    display: inline;
+    background-color: white;
+    display: inline-block;
 }
 .sec_six {
-    float: right;
-    display: inline;
+    background-color: lightblue;
+    display: inline-block;
 }
 .sec_seven {
-    float: left;
-    display: inline;
+    background-color: white;
+    display: inline-block;
 }
 .sec_eight {
-    float: right;
-    display: inline;
+    background-color: lightblue;
+    display: inline-block;
 }
