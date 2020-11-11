@@ -4,7 +4,7 @@ header {
     border: 2px darkgray outset;
     background-color: darkgray;
     display: inline-block;
-    float: left;
+    align-self: left;
 }
 body {
     background-color: lightgray;
@@ -40,17 +40,13 @@ section {
     background-color: whitesmoke;
     padding: 10px;
     margin: 5px 0px;
-    display: block;
-}
-p {
-    display: inline;
+    display: inline-block;
 }
 .blue {
     background-color: lightblue;
-    float: left;
 }
 .white {
-    float: right;
+    background-color: white;
 }
 .main_img {
     width: 800px;
@@ -62,35 +58,40 @@ p {
     border: 2px inset;
     border-radius: 25px;
 }
-.one {
-    display: inline-block;
-    text-align: justify left;
+.sec_one {
+    p {
+        text-align: left
+        width: 4en;
+    }
 }
-.two {
-    float: right;
-    display: inline;
+.sec_two {
+    p {
+        text-align: center;
+        width: 50px;
+
+    }
 }
-.three {
+.sec_three {
     float: left;
     display: inline;
 }
-.four {
+.sec_four {
     float: right;
     display: inline;
 }
-.five {
+.sec_five {
     float: left;
     display: inline;
 }
-.six {
+.sec_six {
     float: right;
     display: inline;
 }
-.seven {
+.sec_seven {
     float: left;
     display: inline;
 }
-.eight {
+.sec_eight {
     float: right;
     display: inline;
 }
