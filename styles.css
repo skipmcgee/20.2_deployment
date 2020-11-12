@@ -29,11 +29,12 @@ img {
     border: solid 1px darkgray;
 }
 li {
+    align-self: center;
     background-color: darkgray;
     border: 4px outset;
     display: inline-block;
     padding: 14px;
-    margin: 5px 210px;
+    margin: 5px 200px;
 }
 section {
     text-align: left;
