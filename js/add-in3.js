@@ -3,9 +3,9 @@
 var userPrompt = prompt("Are you a Looter (y/n)? ", "n")
 
 if (userPrompt == 'y') {
-    document.write("images/american-flag.jpg");
+    document.write("Welcome, Looter!");
 } else if (userPrompt == 'n') { 
-    document.write("images/img_notfound.png");
+    document.write("that's cool too, not everyone's a looter");
 } else {
-    document.write(text="entry invalid");
+    document.write(text="aaaaagh.... ran into an error");
 }

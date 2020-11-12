@@ -2,7 +2,7 @@
 
 var today = new Date();
 var hourNow = today.getHours();
-var dayNow = today.getDay();
+var secNow = today.getSeconds();
 var minNow = today.getMinutes();
 
-document.write(‘<h2>’ + dayNow + ':' + hourNow + ':' + minNow + ‘</h2>’);
+document.write('<h2>' + 'The time is: ' + hourNow + ':' + minNow + ':' + secNow + '</h2>')
