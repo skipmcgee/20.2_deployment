@@ -3,18 +3,18 @@
 var loadCount 
 
 function updateDateTime() {
-    loadCount += 0
+    loadCount += 0;
     var today = new Date();
     var hourNow = today.getHours();
     var secNow = today.getSeconds();
     var minNow = today.getMinutes();
-    var formatting = ('<h2>' + 'The time is: ' + hourNow + ':' + minNow + ':' + secNow + '</h2>')
+    var formatting = ('<h2>' + 'The time is: ' + hourNow + ':' + minNow + ':' + secNow + '</h2>');
     document.write(formatting);
     console.log(formatting);
 }
 
 function newWindow() {
-    loadCount += 0
+    loadCount += 0;
     var text;
     var check = confirm("Do you want to visit Skip's GitHub page?");
     if (check == true) {
@@ -30,9 +30,9 @@ function newWindow() {
 }
 
 function checkLooterStatus() {
-    loadCount += 0
-    console.log("Number of functions used is: " + loadCount)
-    var userPrompt = prompt("Are you a Looter (y/n)? ", "n")
+    loadCount += 0;
+    console.log("Number of functions used is: " + loadCount);
+    var userPrompt = prompt("Are you a Looter (y/n)? ", "n");
     console.log(userPrompt);
     if (userPrompt == 'y') {
         document.write("Welcome, Looter!");
