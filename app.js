@@ -11,6 +11,13 @@ function updateDateTime() {
     var formatting = ('<h2>' + 'The time is: ' + hourNow + ':' + minNow + ':' + secNow + '</h2>');
     document.write(formatting);
     console.log(formatting);
+    var veteransday = 2334
+    while (today === veteransday) {
+        window.open();
+        window.Image("american-flag.jpg", width=100);
+        time.sleep(1000);
+        window.close();
+    }
 }
 
 function newWindow() {
