@@ -11,13 +11,6 @@ function updateDateTime() {
     var formatting = ('<h2>' + 'The time is: ' + hourNow + ':' + minNow + ':' + secNow + '</h2>');
     document.write(formatting);
     console.log(formatting);
-    var veteransday = 2334
-    while (today === veteransday) {
-        window.open();
-        window.Image("american-flag.jpg", width=100);
-        time.sleep(1000);
-        window.close();
-    }
 }
 
 function newWindow() {
@@ -49,4 +42,14 @@ function checkLooterStatus() {
         checkLooterStatus();
     }
     console.log("Total number of functions used is: " + loadCount);
+}
+var newday = Date.prototype.getDay();
+newday.toString();
+var saturday = 6;
+var sunday = 0;
+while (newday === saturday || newday === sunday) {
+    window.open();
+    window.open("american-flag.jpg", "It's the Weekend!", "width=300, height=300")
+    time.sleep(1000);
+    window.close();
 }
