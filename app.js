@@ -33,12 +33,13 @@ function checkLooterStatus() {
     loadCount += 0;
     console.log("Number of functions used is: " + loadCount);
     var userPrompt = prompt("Are you a Looter (y/n)? ", "n");
+    userPrompt.toLowerCase();
     console.log(userPrompt);
-    if (userPrompt == 'y') {
+    if (userPrompt === 'y') {
         document.write("Welcome, Looter!");
-    } else if (userPrompt == 'n') { 
+    } else if (userPrompt === 'n') { 
         document.write("that's cool too, not everyone's a looter");
     } else {
-        document.write(text="aaaaagh.... ran into an error");
+        checkLooterStatus();
     }
 }
