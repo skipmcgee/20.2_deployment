@@ -31,10 +31,9 @@ function newWindow() {
 
 function checkLooterStatus() {
     loadCount += 0;
-    console.log("Number of functions used is: " + loadCount);
     var userPrompt = prompt("Are you a Looter (y/n)? ", "n");
     userPrompt.toLowerCase();
-    console.log(userPrompt);
+    console.log(userPrompt + ',' + 'count=' + loadCount);
     if (userPrompt === 'y') {
         document.write("Welcome, Looter!");
     } else if (userPrompt === 'n') { 
@@ -42,4 +41,5 @@ function checkLooterStatus() {
     } else {
         checkLooterStatus();
     }
+    console.log("Total number of functions used is: " + loadCount);
 }
