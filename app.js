@@ -48,7 +48,6 @@ newday.toString();
 var saturday = 6;
 var sunday = 0;
 while (newday === saturday || newday === sunday) {
-    window.open();
     window.open("american-flag.jpg", "It's the Weekend!", "width=300, height=300")
     time.sleep(1000);
     window.close();
