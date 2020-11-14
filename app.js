@@ -19,7 +19,7 @@ function newWindow() {
     var check = confirm("Do you want to visit Skip's GitHub page?");
     if (check == true) {
     text = "Please continue!";
-    console.log("user wants to visit a different page")
+    console.log("user wants to visit a different page");
     url = "https://skipmcgee.github.io";
     window.open(url);
     } else {
