@@ -23,9 +23,9 @@ function newWindow() {
     url = "https://skipmcgee.github.io";
     window.open(url);
     } else {
-    console.log("user stays on page")
+    console.log("user stays on page");
     text = "Exiting";
-    // window.close()
+    window.close();
     }
 }
 
