@@ -26,7 +26,7 @@ function newWindow() {
     console.log("user stays on page")
     text = "Exiting";
     // window.close()
-}
+    }
 }
 
 function checkLooterStatus() {
