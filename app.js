@@ -43,12 +43,14 @@ function checkLooterStatus() {
     }
     console.log("Total number of functions used is: " + loadCount);
 }
+function weekendDay() {
 var newday = Date.prototype.getDay();
-newday.toString();
-var saturday = 6;
-var sunday = 0;
-while (newday === saturday || newday === sunday) {
-    window.open("american-flag.jpg", "It's the Weekend!", "width=300, height=300")
-    time.sleep(1000);
-    window.close();
+    newday.toString();
+    var saturday = 6;
+    var sunday = 0;
+    while (newday === saturday || newday === sunday) {
+        window.open("/images/american-flag.jpg", "It's the Weekend!", "width=300")
+        time.sleep(1000);
+        window.close();
+    }
 }
