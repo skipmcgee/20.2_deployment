@@ -44,7 +44,7 @@ function checkLooterStatus() {
     console.log("Total number of functions used is: " + loadCount);
 }
 function weekendDay() {
-var newday = Date.prototype.getDay();
+    var newday = Date.prototype.getDay();
     newday.toString();
     var saturday = 6;
     var sunday = 0;
