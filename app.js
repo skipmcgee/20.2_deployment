@@ -2,6 +2,7 @@
 'use strict'
 var loadCount 
 
+/*
 function updateDateTime() {
     loadCount += 0;
     var today = new Date();
@@ -54,3 +55,4 @@ function weekendDay() {
         window.close();
     }
 }
+*/
